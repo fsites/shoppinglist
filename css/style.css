@@ -1,0 +1,93 @@
+body {
+	background-color: #dddad6;
+}
+
+/*HEADER*/
+.header {
+	min-width: 200px;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 70px;
+}
+
+.basket {
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+	background-color: #f4f4f2;
+	border: 2px solid #a6d8de;
+	margin-bottom: -10px;
+}
+
+.header h1 {
+	color: #30302f;
+	font-family: 'Comfortaa', sans-serif;
+}
+
+/*LIST BODY*/
+
+.list-body {
+	height: 300px;
+	width: 100%;
+	background-color: #f9f1b5;
+	border: 2px solid #a6d8de;
+	border-radius: 20px;
+}
+
+.new-item {
+	text-align: center;
+	margin-top: 30px;
+}
+
+.input-box {
+	font-size: .75em;
+	font-family: 'Comfortaa', sans-serif;
+	background-color: #dddad6;
+	color: #30302f;
+	border-radius: 5px;
+	border: 2px solid #a6d8de;
+	width: 25%;
+}
+
+.submit {
+	width: 25px;
+	height: 25px;
+	font-size: 1em;
+	color: #30302f;
+	background-color: #a6d9de;
+	border-radius: 50%;
+	border: 1px solid #dddad6;
+}
+
+.submit:hover {
+	background-color: #30302f;
+	color: #a6d8de;
+	cursor: pointer;
+}
+
+ul {
+	width: 50%;
+	max-width: 800px;
+	margin-top: 30px;
+	text-align: center;
+	margin: 25px auto;
+}
+
+
+.on-list li {
+	font-family: 'Comfortaa', sans-serif;
+	color: #30302f;
+	list-style-type: none;
+	line-height: 1.7em;
+	background-color: #a6d8de;
+	margin: 3px;
+	max-width: 100%;
+	border-radius: 5px;
+
+}
+
+
+
+
+
