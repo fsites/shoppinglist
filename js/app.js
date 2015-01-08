@@ -1,10 +1,25 @@
 $(document).ready(function() {
 
 	$('.submit').click(function() {
-		console.log("clicked")
+	
+		var newItem = $('.input-box').val();
 
-		$('.on-list').append('<li class="item">' + '<button class="done">Done</button>' + $('.input-box').val() + '</li>');
+		$('.on-list').append('<li class="item">' 
+			+ '<button class="done">Done</button>' 
+			+ newItem + '</li>');
+
+		$('.input-box').val('');
+
+		return false;
+
 	});
 
 
-})
+	$('.done').click(function() {
+		console.log('clicked');
+
+		$(this).closest('li').remove();
+
+	});
+
+});
