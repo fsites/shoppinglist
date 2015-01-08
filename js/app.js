@@ -12,14 +12,17 @@ $(document).ready(function() {
 
 		return false;
 
+
 	});
 
-
-	$('.done').click(function() {
+	$('.on-list').on('click', '.done', function() {
 		console.log('clicked');
-
 		$(this).closest('li').remove();
-
 	});
+
+	
+
+	
 
 });
+
