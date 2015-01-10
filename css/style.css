@@ -1,52 +1,51 @@
 body {
-	background-color: #dddad6;
+	background-color: #efeff0;
 }
 
 /*HEADER*/
+
 .header {
 	min-width: 200px;
 	width: 100%;
 	margin: 0 auto;
 	text-align: center;
 	margin-top: 70px;
+	border-bottom: 2px solid #5f6062;
 }
 
 .basket {
-	height: 60px;
-	width: 60px;
-	border-radius: 50%;
-	background-color: #f4f4f2;
-	border: 2px solid #a6d8de;
+	width: 30%;
+	max-width: 400px;
+	min-width: 320px;
 	margin-bottom: -10px;
 }
 
 .header h1 {
-	color: #30302f;
+	color: #5f6062;
 	font-family: 'Comfortaa', sans-serif;
+	font-size: 2em;
 }
 
-/*LIST BODY*/
+
+/*INPUT BOX and BUTTON*/
 
 .list-body {
-	height: 300px;
 	width: 100%;
-	background-color: #f9f1b5;
-	border: 2px solid #a6d8de;
-	border-radius: 20px;
 }
 
 .new-item {
 	text-align: center;
-	margin-top: 30px;
+	margin: 30px auto;
+	min-width: 300px;
 }
 
-.input-box {
+.input-box { 
 	font-size: .75em;
 	font-family: 'Comfortaa', sans-serif;
-	background-color: #dddad6;
-	color: #30302f;
+	background-color: #efeff0;
+	color: #5f6062;
 	border-radius: 5px;
-	border: 2px solid #a6d8de;
+	border: 2px solid #f37021;
 	width: 25%;
 }
 
@@ -54,59 +53,76 @@ body {
 	width: 25px;
 	height: 25px;
 	font-size: 1em;
-	color: #30302f;
-	background-color: #a6d9de;
+	color: #5f6062;
+	background-color: #f37021;
 	border-radius: 50%;
-	border: 1px solid #30302f;
+	border: 1px solid #5f6062;
 }
 
 .submit:hover {
-	background-color: #30302f;
-	color: #a6d8de;
+	background-color: #5f6062;
+	color: #f37021;
 	cursor: pointer;
-	border: 1px solid #a6d8de;
+	border: 1px solid #f37021;
 }
 
-ul {
+
+/*LIST and ITEM*/
+
+.on-list {
 	width: 50%;
 	max-width: 800px;
 	margin-top: 30px;
-	text-align: center;
 	margin: 25px auto;
 }
 
-#wrapper {
-	max-height: 280px;
-}
 
 .on-list li {
 	font-family: 'Comfortaa', sans-serif;
-	color: #30302f;
+	color: #efeff0;
 	list-style-type: none;
 	line-height: 1.7em;
-	background-color: #a6d8de;
-	margin: 3px;
+	background-color: #5f6062;
+	margin: 3px auto;
 	max-width: 100%;
 	border-radius: 5px;
-}
-
-
-.done {
-	font-family: 'Comfortaa', sans-serif;
-	background-color: #f9f1b5;
-	margin: 5px;
-	border-radius: 5px;
-	border: 1px solid #30302f;
-	color: #30302f;
+	border: 2px solid #f37021;
 	text-align: center;
 }
 
-.done:hover {
-	border: 1px solid #f9f1b5;
-	color: #f9f1b5;
-	background-color: #30302f;
+
+/*LIST ITEM BUTTONS*/
+
+.done, .complete {
+	font-family: 'Comfortaa', sans-serif;
+	background-color: #f37021;
+	margin: 2px;
+	border-radius: 50%;
+	border: 2px solid #5f6062;
+	color: #efeff0;
+	text-align: center;
+}
+
+.done:hover, .complete:hover {
+	border: 1px solid #f37021;
+	color: #f37021;
+	background-color: #efeff0;
 	cursor: pointer;
 }
+
+.done {
+	float: left;
+}
+
+.complete {
+	float: right;
+}
+
+button:active {
+	border: none;
+}
+
+
 
 
 
