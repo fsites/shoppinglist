@@ -3,7 +3,6 @@ body {
 }
 
 /*HEADER*/
-
 .header {
 	min-width: 200px;
 	width: 100%;
@@ -28,7 +27,6 @@ body {
 
 
 /*INPUT BOX and BUTTON*/
-
 .list-body {
 	width: 100%;
 }
@@ -68,14 +66,12 @@ body {
 
 
 /*LIST and ITEM*/
-
 .on-list {
 	width: 50%;
 	max-width: 800px;
 	margin-top: 30px;
 	margin: 25px auto;
 }
-
 
 .on-list li {
 	font-family: 'Comfortaa', sans-serif;
@@ -92,7 +88,6 @@ body {
 
 
 /*LIST ITEM BUTTONS*/
-
 .done, .complete {
 	font-family: 'Comfortaa', sans-serif;
 	background-color: #f37021;
@@ -122,7 +117,15 @@ button:active {
 	border: none;
 }
 
+/*COMPLETED TASK CHECK TOGGLE*/
+.strikethrough {
+	text-decoration: line-through;
+	color: #404040;
+}
 
+button:focus, .submit:focus {
+	outline: 0;
+}
 
 
 

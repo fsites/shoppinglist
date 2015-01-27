@@ -12,8 +12,6 @@ $(document).ready(function() {
 		$('.input-box').val('');
 
 		return false;
-
-
 	});
 
 //DELETE LI
@@ -25,7 +23,7 @@ $(document).ready(function() {
 //STRIKETHROUGH ON LI
 	$('.on-list').on('click', '.complete', function() {
 		console.log('complete clicked');
-		$(this).closest('li').css({'text-decoration': 'line-through', 'color': '#404040'});
+		$(this).closest('li').toggleClass('strikethrough');
 	});
-});
+})
 
