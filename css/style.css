@@ -1,0 +1,138 @@
+body {
+	background-color: #efeff0;
+}
+
+/*HEADER*/
+.header {
+	min-width: 200px;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 70px;
+	border-bottom: 2px solid #5f6062;
+}
+
+.basket {
+	width: 300px;
+	margin-bottom: -10px;
+}
+
+.header h1 {
+	color: #5f6062;
+	font-family: 'Comfortaa', sans-serif;
+	font-size: 2em;
+}
+
+
+/*INPUT BOX and BUTTON*/
+.list-body {
+	width: 100%;
+}
+
+.new-item {
+	text-align: center;
+	margin: 30px auto;
+	min-width: 300px;
+}
+
+.input-box { 
+	font-size: .75em;
+	font-family: 'Comfortaa', sans-serif;
+	background-color: #efeff0;
+	color: #5f6062;
+	border-radius: 5px;
+	border: 2px solid #f37021;
+	width: 25%;
+	min-width: 260px;
+}
+
+
+.submit {
+	width: 25px;
+	height: 25px;
+	font-size: 1em;
+	color: #5f6062;
+	background-color: #f37021;
+	border-radius: 50%;
+	border: 1px solid #5f6062;
+}
+
+.submit:hover {
+	background-color: #5f6062;
+	color: #f37021;
+	cursor: pointer;
+	border: 1px solid #f37021;
+}
+
+
+/*LIST and ITEM*/
+.on-list {
+	display: block;
+	max-width: 800px;
+	margin: 25px auto;
+	padding: 0px;
+}
+
+.on-list li {
+	font-family: 'Comfortaa', sans-serif;
+	color: #efeff0;
+	list-style-type: none;
+	line-height: 1.7em;
+	background-color: #5f6062;
+	margin: 3px auto;
+	border-radius: 5px;
+	border: 2px solid #f37021;
+	text-align: center;
+	min-width: 250px;
+	max-width: 500px;
+	padding-left: 0px;
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+	-webkit-padding-start: 0;
+}
+
+
+/*LIST ITEM BUTTONS*/
+.done, .complete {
+	font-family: 'Comfortaa', sans-serif;
+	background-color: #f37021;
+	margin: 2px;
+	border-radius: 50%;
+	border: 2px solid #5f6062;
+	color: #efeff0;
+	text-align: center;
+}
+
+.done:hover, .complete:hover {
+	border: 1px solid #f37021;
+	color: #f37021;
+	background-color: #efeff0;
+	cursor: pointer;
+}
+
+.done {
+	float: left;
+}
+
+.complete {
+	float: right;
+}
+
+button:active {
+	border: none;
+}
+
+/*COMPLETED TASK CHECK TOGGLE*/
+.strikethrough {
+	text-decoration: line-through;
+	color: #404040;
+}
+
+button:focus, .submit:focus, .input-box:focus {
+	outline: 0;
+}
+
+
+
+
+
