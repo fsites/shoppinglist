@@ -13,9 +13,7 @@ body {
 }
 
 .basket {
-	width: 30%;
-	max-width: 400px;
-	min-width: 320px;
+	width: 300px;
 	margin-bottom: -10px;
 }
 
@@ -45,7 +43,9 @@ body {
 	border-radius: 5px;
 	border: 2px solid #f37021;
 	width: 25%;
+	min-width: 260px;
 }
+
 
 .submit {
 	width: 25px;
@@ -67,10 +67,10 @@ body {
 
 /*LIST and ITEM*/
 .on-list {
-	width: 50%;
+	display: block;
 	max-width: 800px;
-	margin-top: 30px;
 	margin: 25px auto;
+	padding: 0px;
 }
 
 .on-list li {
@@ -80,10 +80,15 @@ body {
 	line-height: 1.7em;
 	background-color: #5f6062;
 	margin: 3px auto;
-	max-width: 100%;
 	border-radius: 5px;
 	border: 2px solid #f37021;
 	text-align: center;
+	min-width: 250px;
+	max-width: 500px;
+	padding-left: 0px;
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+	-webkit-padding-start: 0;
 }
 
 
@@ -123,7 +128,7 @@ button:active {
 	color: #404040;
 }
 
-button:focus, .submit:focus {
+button:focus, .submit:focus, .input-box:focus {
 	outline: 0;
 }
 
